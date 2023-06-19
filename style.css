@@ -39,12 +39,12 @@
 
 .nombre p:before {
 
-	content: "🗲";  
+	content: "\1F5F2";  
 }
 
 .nombre p:after {
 
-    content: "🗲";  
+    content: "\1F5F2";  
 }
 
 
@@ -138,7 +138,7 @@ flex-direction: column;
 
     margin: 2rem 0;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: #c23c3c;
 }
 
@@ -173,7 +173,7 @@ flex-direction: column;
 
 .redes-sociales-item-link:after {
 
-    content: "🡥";
+    content: "\1F865";
 }
 
 /*Código para seccion de sobre mi*/
