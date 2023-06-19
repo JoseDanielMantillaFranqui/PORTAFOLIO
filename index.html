@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Portafolio de Daniel</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link href="reset.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	</head>
+<body>
+	<header>
+		<section class="header container">
+			<div class=nombre>
+				<p>Daniel Franqui</p>
+			</div>
+			<nav class="menu">
+				<ul>
+					<li class="menu-item"><a href="#sobre-mi" class="menu-item-link">Sobre mi</a></li>
+					<li class="menu-item"><a href="#skills" class="menu-item-link">Skills</a></li>
+					<li class="menu-item"><a href="#hobbies" class="menu-item-link">Hobbies </a></li>
+					<li class="menu-item"><a href="#formacion" class="menu-item-link">Formación </a></li>
+					<li class="menu-item"><a href="#experiencia" class="menu-item-link">Proyectos</a></li>
+				</ul>
+			</nav>
+			<div class="correo">
+				<p>danielfranqui016@gmail.com</p>
+			</div>
+			<div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+            <nav class="mobile-menu">
+				<ul>
+					<li class="mobile-menu-item">
+						<a href="#sobre-mi" class="mobile-menu-item-link">Sobre mi</a>
+					</li>
+					<li class="mobile-menu-item">
+						<a href="#skills" class="mobile-menu-item-link">Skills</a>
+					</li>
+					<li class="mobile-menu-item">
+						<a href="#hobbies" class="mobile-menu-item-link">Hobbies</a>
+					</li>
+					<li class="mobile-menu-item">
+						<a href="#formacion" class="mobile-menu-item-link">Formación </a>
+					</li>
+					<li class="mobile-menu-item">
+						<a href="#experiencia" class="mobile-menu-item-link">Proyectos</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</header>
+	<main>		
+		<section class="presentacion-personal">
+
+			<img src="img/foto-presentacion.png" class="presentacion-foto">
+			<div class="container presentacion">
+				
+				<h1 class="presentacion-titulo">Hola, mi nombre es Daniel Franqui y construyo páginas web</h1>
+				<p class="presentacion-parrafo">Actualmente estoy en formación de Front-End Web Developer gracias al proyecto Oracle ONE en compañía de Alura Latam</p>
+			
+				<div class="container redes">
+					<ul class="redes-sociales">
+						<li class="redes-sociales-item">
+							<a href="https://github.com/JoseDanielMantillaFranqui" class="redes-sociales-item-link">Github</a>
+						</li>
+						<li class="redes-sociales-item">
+							<a href="https://www.linkedin.com/in/josé-daniel-mantilla-franqui-a818781ab/" class="redes-sociales-item-link">Linkedin</a>
+						</li>
+					</ul>
+				</div>
+			</div>			
+		</section>
+		<section class="sobre-mi" id="sobre-mi">
+			<div class="container sobre">
+				<h2 class="sobre-mi-titulo">Sobre mi</h2>
+				<p class="sobre-mi-parrafo">Me llamo José Daniel Mantilla Franqui, soy colombiano y tengo 20 años. Empecé mi vida laboral como agricultor. A pesar de que era bueno y dedicado en este rubro, y a pesar de mi experiencia, no conseguía un lugar donde se valorara realmente mi trabajo y se lograra escalar con relación al tiempo. Así que a mediados del 2021 decidí buscar una habilidad con amplia divulgación de información y bien valorizada en el mercado. Descubrí el mundo de la tecnología y el desarrollo de software gracias a Jah y a un familiar y a un amigo que me convencieron de intentarlo. Emprendí en este nuevo mundo para mí, gracias a una oportunidad excepcional de parte de Oracle y Alura Latam: El programa Oracle ONE. Desde entonces estoy en constante aprendizaje, aportando y aprovechando lo grandiosa que es esta comunidad.</p>
+				<p class="sobre-mi-parrafo">Actualmente soy estudiante de Desarrollo Web con enfoque en Front-End. Me encanta lo que aprendo. Soy bastante dedicado y disciplinado.</p>
+			</div>
+		</section>
+		<section class="skills" id="skills">
+			<div class="container">
+				<h3 class="skills-titulo">Skills</h3>
+				<ul class="skills-d">
+					<li class="skills-d-item html">
+						<img src="img/html.svg" class="skills-img"><p>HTML5</p>
+					</li>
+					<li class="skills-d-item">
+						<img src="img/js.svg" class="skills-img"><p>Javascript</p>
+					</li>
+					<li class="skills-d-item">
+						<img src="img/php.svg" class="skills-img"><p>PHP</p>
+					</li>
+					<li class="skills-d-item">
+						<img src="img/node.svg" class="skills-img"><p>Node JS</p>
+					</li>
+					<li class="skills-d-item">
+						<img src="img/react.svg" class="skills-img"><p>React</p>
+					</li>
+					<li class="skills-d-item">
+						<img src="img/css.svg" class="skills-img css"><p>CSS</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="hobbies" id="hobbies">
+			<div class="container">
+				<h3 class="hobbies-titulo">Hobbies</h3>
+				<ul class="hobbies-d">
+					<li class="hobbies-d-item">
+						<img src="img/ajedrez.svg" class="hobbies-img ajedrez"><p>Ajedrez</p>
+					</li>
+					<li class="hobbies-d-item">
+						<img src="img/caminar.svg" class="hobbies-img caminar"><p>Caminar</p>
+					</li>
+					<li class="hobbies-d-item">
+						<img src="img/leer.svg" class="hobbies-img leer"><p>Leer</p>
+					</li>
+					<li class="hobbies-d-item">
+						<img src="img/videojuegos.svg" class="hobbies-img videojuegos"><p>Videojuegos</p>
+					</li>
+					<li class="hobbies-d-item">
+						<img src="img/musica.svg" class="hobbies-img musica"><p>Escuchar música</p>
+					</li>
+					<li class="hobbies-d-item">
+						<img src="img/editar.svg" class="hobbies-img editar"><p>Editar fotos</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="formacion" id="formacion">			
+			<div class="container">
+				<h2 class="formacion-titulo">Formación académica</h2>
+				<ul class="formacion-d">
+					<li class="formacion-d-item">
+						<div class="formacion-d-item-logo sena">
+							<img src="img/sena.svg" class="formacion-d-item-logo-imagen">
+						</div>
+						<h3 class="titulo-formacion">Inglés Básico</h3>
+						<p>2021 - SENA<p>
+					</li>
+					<li class="formacion-d-item">
+						<div class="formacion-d-item-logo">
+							<img src="img/alura.svg" class="formacion-d-item-logo-imagen">
+						</div>
+						<h3 class="titulo-formacion">Desarrollador Web Front-End</h3>
+						<p>En curso - Alura LATAM</p>
+					</li>
+				</ul>
+			</div>	
+		</section>
+		<section class="experiencia" id="experiencia">
+			<div class="container">
+				<h4 class="experiencia-titulo">Experiencia profesional</h4>
+				<ul class="experiencia-d">
+					<li class="experiencia-d-item">
+						<img src="img/encriptador.png" class="experiencia-d-item-img">
+						<div class="experiencia-d-item-descripcion">
+							<h5 class="titulo-experiencia">Encriptador de texto</h5>
+							<p>Challenge 01 - Oracle ONE</p>
+							<div class="experiencia-d-item-botones">
+								<a href="https://github.com/JoseDanielMantillaFranqui/ENCRIPTADORPROYECTOONE" class="experiencia-d-item-enlace-1">Ver repositorio</a>
+								<a href="https://josedanielmantillafranqui.github.io/ENCRIPTADORPROYECTOONE/" class="experiencia-d-item-enlace-2">Ver página</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>			
+		</section>
+		<section class="contacto">
+			<div class="container">
+				<h6 class="contacto-titulo">Contacto</h6>
+				<p class="contacto-parrafo">¿Quiere contactarme? Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+				<div class="contacto-imagen-formulario">
+					<div class="contacto-img">
+						<img src="img/contacto.svg" class="contacto-img-icono">
+					</div>
+					<form class="form-contacto">
+						<label for="nombre" class="label-nombre">Nombre</label>
+						<input type="text" id="nombre" class="form-contacto-nombre" required autocomplete="off">
+
+						<label for="correoelectronico" class="label-email">E-mail</label>
+						<input type="email" id="correoelectronico" class="form-contacto-email" required autocomplete="off">
+
+						<input type="text" class="form-contacto-asunto" required placeholder="Asunto">
+
+						<textarea rows="5" cols="10" type="text" class="form-contacto-mensaje" required placeholder="Mensaje"></textarea>
+
+						<input type="submit" value="Enviar formulario" class="form-contacto-enviar">
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer">
+			<img src="img/logo-footer.jpeg" class="footer-logo">
+			<p>Desarrollado por Daniel Franqui</p>
+			<p>2023</p>
+		</div>
+	</footer>
+</body>
+</html>
+
+<script src="script.js"></script>
