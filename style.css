@@ -353,6 +353,7 @@ flex-direction: column;
 
     font-family: 'Kanit', sans-serif;
     color: #c23c3c;
+    text-align: center;
 }
 
 /*Código para seccion de formacion academica*/
@@ -1036,6 +1037,16 @@ justify-content: space-between;
 .hobbies-img {
 
     width: 30%;
+}
+
+.ajedrez {
+
+    width: 20%;
+}
+
+.caminar {
+
+    width: 40%;
 }
 
 .formacion-titulo {
