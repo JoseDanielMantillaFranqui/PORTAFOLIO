@@ -253,7 +253,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 10px;
     
 }
@@ -267,6 +267,11 @@ flex-direction: column;
 .css {
 
     width: 18%;
+}
+
+.php,.node {
+
+    width: 35%;
 }
 
 .skills-d-item p {
@@ -309,7 +314,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 10px;
     
 }
@@ -783,8 +788,6 @@ footer {
     height: 3vw;
 }
 
-/*Diseño responsivo del header*/
-
 .header {
 
     flex-direction: row;
@@ -825,6 +828,11 @@ justify-content: space-between;
     width: 30%;
 }
 
+.php,.node {
+
+    width: 35%;
+}
+
 .css {
 
     width: 20%;
@@ -839,6 +847,11 @@ justify-content: space-between;
 .hobbies-img {
 
     width: 30%;
+}
+
+.ajedrez {
+
+    width: 17%;
 }
 
 .formacion-d {
@@ -1005,6 +1018,11 @@ justify-content: space-between;
 .skills-img {
 
     width: 30%;
+}
+
+.php,.node {
+
+    width: 40%;
 }
 
 .css {
