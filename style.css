@@ -255,7 +255,17 @@ flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    
+    cursor:pointer;
+}
+
+.skills-d-item:hover {
+    transform: scale(1.1); /* Puedes ajustar el valor según tu preferencia */
+    transition: transform 0.3s;
+}
+
+.skills-d-item:active, .skills-d-item:focus {
+    transform: rotate(360deg); /* Puedes ajustar el valor según tu preferencia */
+    transition: transform 0.3s;
 }
 
 .skills-img {
@@ -316,7 +326,17 @@ flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    
+    cursor: pointer;
+}
+
+.hobbies-d-item:hover {
+    transform: scale(1.1); /* Puedes ajustar el valor según tu preferencia */
+    transition: transform 0.3s;
+}
+
+.hobbies-d-item:active, .hobbies-d-item:focus {
+    transform: rotate(360deg); /* Puedes ajustar el valor según tu preferencia */
+    transition: transform 0.3s;
 }
 
 .hobbies-img {
@@ -459,6 +479,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 .experiencia-d-item-img {
@@ -1109,6 +1130,13 @@ justify-content: space-between;
 .experiencia-d-item {
 
     flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.experiencia-d-item:nth-child(odd) {
+
+    flex-direction: row-reverse;
     justify-content: space-around;
 }
 
