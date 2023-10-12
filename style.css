@@ -256,6 +256,7 @@ flex-direction: column;
     justify-content: space-evenly;
     border-radius: 10px;
     cursor:pointer;
+    user-select: none;
 }
 
 .skills-d-item:hover {
@@ -327,6 +328,7 @@ flex-direction: column;
     justify-content: space-evenly;
     border-radius: 10px;
     cursor: pointer;
+    user-select: none;
 }
 
 .hobbies-d-item:hover {
