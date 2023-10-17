@@ -33,8 +33,7 @@ app.post('/enviar', (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
-      res.send('Hubo un error al enviar el mensaje.');
-      alert("No se pudo enviar el mensaje :( .")
+      res.redirect('/denegacion.html');
     } else {
       console.log('Correo electrónico enviado: ' + info.response);
       res.redirect('/confirmacion.html');

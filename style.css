@@ -779,9 +779,9 @@ footer {
 
 }
 
-/*Código para página de confirmación*/
+/*Código para página de confirmación-denegación*/
 
-.confirmacion__container {
+.container {
     width: 80%;
     height: 900px;
     padding: 5% 10%;
@@ -792,13 +792,13 @@ footer {
     align-items: center;
 }
 
-.confirmacion__texto {
+.texto {
     color: #c23c3c;
     font-size: 2rem;
     font-family: Lato, sans-serif;
 }
 
-.confirmacion__enlace__home {
+.enlace__home {
     background-color: #eb7373;
     color: #f0e1e1;
     font-size: 2rem;
@@ -812,7 +812,7 @@ footer {
     text-decoration: none;
 }
 
-.confirmacion__enlace__home:hover {
+.enlace__home:hover {
     background-color: #662424;
 }
 
@@ -970,7 +970,7 @@ justify-content: space-between;
 
 @media screen and (min-width: 1001px) and (max-width: 2000px) {
 
-.confirmacion__container {
+.container {
     width: 90%;
     height: 100vb;
     padding: 5% 5%;  
