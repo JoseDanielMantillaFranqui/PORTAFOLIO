@@ -779,6 +779,42 @@ footer {
 
 }
 
+/*Código para página de confirmación*/
+
+.confirmacion__container {
+    width: 80%;
+    height: 900px;
+    padding: 5% 10%;
+    background-color: #ebc3c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmacion__texto {
+    color: #c23c3c;
+    font-size: 2rem;
+    font-family: Lato, sans-serif;
+}
+
+.confirmacion__enlace__home {
+    background-color: #eb7373;
+    color: #f0e1e1;
+    font-size: 2rem;
+    padding: 2% 5%;
+    font-family: Roboto, sans-serif;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.confirmacion__enlace__home:hover {
+    background-color: #662424;
+}
 
 /*Código para el diseño responsivo entre 500 y 750px*/
 
@@ -933,6 +969,12 @@ justify-content: space-between;
 /*Código para el diseño responsivo para desktop*/
 
 @media screen and (min-width: 1001px) and (max-width: 2000px) {
+
+.confirmacion__container {
+    width: 90%;
+    height: 100vb;
+    padding: 5% 5%;  
+}
 
 .nombre p:before {
 

@@ -61,7 +61,7 @@
 			<div class="container presentacion">
 				
 				<h1 class="presentacion-titulo">Hola, mi nombre es Daniel Franqui y construyo páginas web</h1>
-				<p class="presentacion-parrafo">Actualmente estoy en formación de Front-End Web Developer gracias al proyecto Oracle ONE en compañía de Alura Latam</p>
+				<p class="presentacion-parrafo">Soy graduado del programa Oracle Next Education de Desarrollador Web Junior Front-End</p>
 			
 				<div class="container redes">
 					<ul class="redes-sociales">
@@ -78,8 +78,8 @@
 		<section class="sobre-mi" id="sobre-mi">
 			<div class="container sobre">
 				<h2 class="sobre-mi-titulo">Sobre mi</h2>
-				<p class="sobre-mi-parrafo">Me llamo José Daniel Mantilla Franqui, soy colombiano y tengo 20 años. Empecé mi vida laboral como agricultor. A pesar de que era bueno y dedicado en este rubro, y a pesar de mi experiencia, no conseguía un lugar donde se valorara realmente mi trabajo y se lograra escalar con relación al tiempo. Así que a mediados del 2021 decidí buscar una habilidad con amplia divulgación de información y bien valorizada en el mercado. Descubrí el mundo de la tecnología y el desarrollo de software gracias a Jah y a un familiar y a un amigo que me convencieron de intentarlo. Emprendí en este nuevo mundo para mí, gracias a una oportunidad excepcional de parte de Oracle y Alura Latam: El programa Oracle ONE. Desde entonces estoy en constante aprendizaje, aportando y aprovechando lo grandiosa que es esta comunidad.</p>
-				<p class="sobre-mi-parrafo">Actualmente soy estudiante de Desarrollo Web con enfoque en Front-End. Me encanta lo que aprendo. Soy bastante dedicado y disciplinado.</p>
+				<p class="sobre-mi-parrafo">Me llamo José Daniel Mantilla Franqui, soy colombiano y tengo 20 años. Empecé mi vida laboral como agricultor. A pesar de que era bueno y dedicado en este rubro, no conseguía un lugar donde se valorara realmente mi trabajo y se lograra escalar con relación al tiempo. Así que a principios de 2023 decidí buscar una habilidad con amplia divulgación de información y bien valorizada en el mercado. Descubrí el mundo de la tecnología y el desarrollo de software gracias a Dios y a un familiar y a un amigo que me convencieron de intentarlo. Emprendí en este nuevo mundo para mí, gracias a una oportunidad excepcional de parte de Oracle y Alura Latam: El programa Oracle ONE. Desde entonces estoy en constante aprendizaje, aportando y aprovechando lo grandiosa que es esta comunidad.</p>
+				<p class="sobre-mi-parrafo">Actualmente soy Desarrollador Web Junior con enfoque en Front-End</p>
 			</div>
 		</section>
 		<section class="skills" id="skills">
@@ -90,19 +90,19 @@
 						<img src="img/html.svg" class="skills-img"><p>HTML5</p>
 					</li>
 					<li class="skills-d-item">
+						<img src="img/css.svg" class="skills-img css"><p>CSS3</p>
+					</li>
+					<li class="skills-d-item">
 						<img src="img/js.svg" class="skills-img"><p>Javascript</p>
-					</li>
-					<li class="skills-d-item ">
-						<img src="img/php.svg" class="skills-img php"><p>PHP</p>
-					</li>
-					<li class="skills-d-item ">
-						<img src="img/node.svg" class="skills-img node"><p>Node JS</p>
 					</li>
 					<li class="skills-d-item">
 						<img src="img/react.svg" class="skills-img"><p>React</p>
 					</li>
-					<li class="skills-d-item">
-						<img src="img/css.svg" class="skills-img css"><p>CSS</p>
+					<li class="skills-d-item ">
+						<img src="img/node.svg" class="skills-img node"><p>Node JS</p>
+					</li>
+					<li class="skills-d-item ">
+						<img src="img/inglés.svg" class="skills-img php"><p>Inglés A2</p>
 					</li>
 				</ul>
 			</div>
@@ -148,7 +148,7 @@
 							<img src="img/alura.svg" class="formacion-d-item-logo-imagen">
 						</div>
 						<h3 class="titulo-formacion">Desarrollador Web Front-End</h3>
-						<p>En curso - Alura LATAM</p>
+						<p>2023 - Alura LATAM</p>
 					</li>
 				</ul>
 			</div>	
@@ -212,6 +212,17 @@
 							</div>
 						</div>
 					</li>
+					<li class="experiencia-d-item">
+						<img src="img/tasks.png" class="experiencia-d-item-img">
+						<div class="experiencia-d-item-descripcion">
+							<h5 class="titulo-experiencia">TASKS</h5>
+							<p>CURSO REACT - FREECODECAMP</p>
+							<div class="experiencia-d-item-botones">
+								<a href="https://github.com/JoseDanielMantillaFranqui/TASKS" class="experiencia-d-item-enlace-1">Ver repositorio</a>
+								<a href="https://daniels-tasks.vercel.app/" class="experiencia-d-item-enlace-2">Ver página</a>
+							</div>
+						</div>
+					</li>
 				</ul>
 			</div>			
 		</section>
@@ -223,19 +234,19 @@
 					<div class="contacto-img">
 						<img src="img/contacto.svg" class="contacto-img-icono">
 					</div>
-					<form class="form-contacto">
+					<form class="form-contacto" action="/enviar" method="post">
 						<label for="nombre" class="label-nombre">Nombre</label>
-						<input type="text" id="nombre" class="form-contacto-nombre" required autocomplete="off">
-
+						<input type="text" id="nombre" name="nombre" class="form-contacto-nombre" required autocomplete="off">
+					  
 						<label for="correoelectronico" class="label-email">E-mail</label>
-						<input type="email" id="correoelectronico" class="form-contacto-email" required autocomplete="off">
-
-						<input type="text" class="form-contacto-asunto" required placeholder="Asunto">
-
-						<textarea rows="5" cols="10" type="text" class="form-contacto-mensaje" required placeholder="Mensaje"></textarea>
-
+						<input type="email" id="correoelectronico" name="correoelectronico" class="form-contacto-email" required autocomplete="off">
+					  
+						<input type="text" name="asunto" class="form-contacto-asunto" required placeholder="Asunto">
+					  
+						<textarea rows="5" cols="10" name="mensaje" class="form-contacto-mensaje" required placeholder="Mensaje"></textarea>
+					  
 						<input type="submit" value="Enviar formulario" class="form-contacto-enviar">
-					</form>
+					  </form>				  
 				</div>
 			</div>
 		</section>
