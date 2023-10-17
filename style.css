@@ -796,6 +796,7 @@ footer {
     color: #c23c3c;
     font-size: 2rem;
     font-family: Lato, sans-serif;
+    text-align: center;
 }
 
 .enlace__home__confirmacion--denegación {
@@ -810,10 +811,15 @@ footer {
     transition: 1s all;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 
 .enlace__home__confirmacion--denegación:hover {
     background-color: #662424;
+}
+
+.imagen__confirmacion--denegacion {
+    margin-bottom: 2rem;
 }
 
 /*Código para el diseño responsivo entre 500 y 750px*/
