@@ -1,5 +1,6 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+require('dotenv').config(); // Cargar variables de entorno desde el archivo .env
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -16,8 +17,8 @@ app.post('/enviar', (req, res) => {
     host: 'smtp.mailgun.org',
     port: 587,
     auth: {
-      user: 'postmaster@sandbox4d1fb2cc731c493486f2f68016aea7be.mailgun.org',
-      pass: 'b70903812a5dbcf25db3d2f95a213c14-3750a53b-98a120ac'
+      user: process.env.MAILGUN_USER, // Usa la variable de entorno en lugar de las credenciales directamente
+      pass: process.env.MAILGUN_PASS
     }
   });
 
